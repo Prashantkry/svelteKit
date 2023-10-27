@@ -4,3 +4,4 @@
 </script>
 
 <h1>Dynamic Routing of product {productId}</h1>
+
