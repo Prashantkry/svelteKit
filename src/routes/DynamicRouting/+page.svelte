@@ -10,3 +10,6 @@
 <h1><a href="/DynamicRouting/3">Product 3</a></h1>
 <h1><a href="/DynamicRouting/4">Product 4</a></h1>
 <h1><a href={`/DynamicRouting/${productId}`}>Product - {productId}</a></h1>
+
+
+<a href="/">Home Page</a>
