@@ -13,7 +13,9 @@
         again from where to where in 2nd time.
         for this replaceState had to be removed 
 -->
+
 <script>
+	import '../app.css';
 	import { goto, beforeNavigate, afterNavigate } from '$app/navigation';
 	function handleClick() {
 		console.log('Order Placed');
@@ -28,7 +30,11 @@
 	});
 </script>
 
-<h1>Home Page</h1>
-<a href="/about">About</a>
-<a href="/blog">Blog Page</a>
-<button on:click={handleClick}>Place Order</button>
+<main class=" ">
+	<div class="shadow-sm flex justify-evenly p-2 text-xl items-center font-bold">
+		<a href="/">Home Page</a>
+		<a href="/about">About</a>
+		<a href="/blog">Blog Page</a>
+	</div>
+	<button on:click={handleClick} class=" border-2 w-[120px] p-1 mt-[20%] ml-[45%]">Place Order</button>
+</main>
